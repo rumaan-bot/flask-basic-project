@@ -2,7 +2,7 @@ pipeline {
    agent any
   
    environment {
-       DOCKER_HUB_REPO = "rumaan-bot/flask-hello-world"
+       DOCKER_HUB_REPO = "rumaanbot/flask-hello-world"
        CONTAINER_NAME = "flask-hello-world"
        DOCKERHUB_CREDENTIALS=credentials('dockerhub-credentials')
    }
